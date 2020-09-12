@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lato:wght@400;700&family=Playfair+Display:wght@300;400;500;800&family=Roboto:wght@100;300;500;900&display=swap'");
+/*
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+.background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* used in logo section, form sec4, footer, ... */
+.col-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    color: turquoise;
+    border: 1px solid turquoise;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+    background: transparent;
+
+}
+
+/* ***************** HEADER SECTION ***************** */
+
+.bgk-header {
+    background-image: url("/img/bgk-header.png");
+    height: 550px;
+}
+
+.navbar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: salmon;
+}
+
+.nav-logo {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.nav-links {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* 
+If you want to give  some padding to navbar top, don't forget whole header div is
+calculated with height of 550px !!
+*/
+.header {
+    background-color: lightskyblue;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ***************** SECTION ONE ***************** */
+
+.section-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 360px;
+    background-color: yellow;
+}
+
+/* ***************** SECTION FOUR ***************** */
+
+.section-four {
+    background-color: pink;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 540px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(199, 201, 200);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: rgb(199, 201, 200);
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+textarea {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    border: 1px solid rgb(199, 201, 200);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.logos {
+    width: 130px;
+    padding-bottom: 35px;
+    padding-right: 30px;
+}
+
+
+
+
+
+/* ***************** FOOTER ***************** */
+
+.bgk-footer {
+    background-image: url("/img/bgk-footer.png");
+    height: 330px;
+}
+
+footer {
+    background-color: lime;
+    height: 500px;
+}
